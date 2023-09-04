@@ -1,0 +1,74 @@
+html {
+  background-color: hsl(348, 91%, 51%);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: hsl(57, 85%, 72%);
+  color: hsl(206, 86%, 8%);
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(45, 93%, 84%);
+  padding: 10px;
+}
+
+.navigation nav {
+  margin: 5px;
+  padding: 5px;
+  background-color: hsl(0, 45%, 92%);
+  color: hsl(226, 87%, 64%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#pokedex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#pokedex-container > div {
+  margin: 20px;
+  padding: 20px;
+  background-color: hsl(0, 45%, 92%);
+  color: hsl(226, 87%, 64%);
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px hsl(0, 0%, 10%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.details {
+  color: hsl(0, 1%, 30%);
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sumType {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
