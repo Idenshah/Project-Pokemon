@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/pokedex.html/"
+to = "/index.html/"
 status = 200
