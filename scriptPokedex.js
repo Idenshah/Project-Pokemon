@@ -83,6 +83,8 @@ function showPokemonOfType(type) {
 
     const image = document.createElement("img");
     image.src = pokemon.sprite;
+    image.alt = `${pokemon.name} - ${pokemon.type.join(" and ")} Type Pokemon`; // Add alt text here
+    image.loading = "lazy";
     image.addEventListener("click", () => {
       window.location.href = pokemon.url;
     });
